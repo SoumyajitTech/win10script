@@ -11,9 +11,16 @@ This is the Ultimate Windows 10 Script from a creation from multiple debloat scr
 - Added Debloat Microsoft Store Apps
 
 ## Install
+- Download the `Win10-Initial-Setup` and run the `Default.cmd` file with Administrative Privilages
+```
+Win10-Initial-Setup-3.10
+```
+- Then run the below command in powershell as Administrator
 ```
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/SoumyajitTech/win10script/master/win10debloat.ps1')"
 ```
+- Run the `Black Viper Script` in `Safe Mode` to Stop all your unwanted services from running
+
 
 ## Modifications
 I encourage people to fork this project and comment out things they don't like! Here is a list of normal things people change:
