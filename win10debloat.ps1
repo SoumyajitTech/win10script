@@ -85,7 +85,7 @@ $tweaks = @(
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
 	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
+	"DisableRemoteDesktop",		# "EnableRemoteDesktop",          
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
 	"DisableStorageSense",        # "EnableStorageSense",
