@@ -20,7 +20,18 @@ Win10-Initial-Setup-3.10
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/SoumyajitTech/win10script/master/win10debloat.ps1')"
 ```
 3. Run the `Black Viper Script` in `Safe Mode` to Stop all your unwanted services from running
-
+```
+Black Viper Script
+```
+4. To Remove the Xbox gamebar from windows 10 Run the following command
+```
+Get-AppxPackage *Xbox* | Remove-AppxPackage
+```
+5. To Remove the Microsoft Edge You can Download the `uninstall_edge` file and run 
+   `Uninstall Edge` Script
+```
+uninstall_edge >> Uninstall Edge
+```
 
 ## Modifications
 I encourage people to fork this project and comment out things they don't like! Here is a list of normal things people change:
